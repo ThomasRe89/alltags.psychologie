@@ -1,0 +1,8 @@
+{
+  "ig_user_id": "17841420785256818",
+  "modelle": ["claude-sonnet-5-5", "claude-sonnet-4-6"],
+  "zeitzone": "Europe/Vienna",
+  "frueheste_uhrzeit": "18:15",
+  "wochenplan": {"0": "reel", "1": "karussell", "2": "reel", "3": "karussell", "4": "reel", "5": "karussell", "6": "reel"},
+  "graph_version": ""
+}

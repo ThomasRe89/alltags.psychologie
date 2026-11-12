@@ -1,0 +1,350 @@
+[
+ {
+  "id": "spotlight",
+  "titel": "Spotlight-Effekt",
+  "saeule": "denkfehler",
+  "status": "manuell",
+  "kern": "Studierende mussten ein peinliches T-Shirt tragen und kurz einen Raum mit anderen betreten. Sie schätzten, dass etwa die Hälfte (ca. 50 %) es bemerkt hatte, tatsächlich waren es nur etwa ein Viertel (ca. 25 %). Wir überschätzen, wie sehr andere auf uns achten.",
+  "quelle": "Gilovich, Medvec & Savitsky (2000), Journal of Personality and Social Psychology"
+ },
+ {
+  "id": "anker",
+  "titel": "Ankereffekt",
+  "saeule": "denkfehler",
+  "status": "manuell",
+  "kern": "Ein Glücksrad blieb bei 10 oder 65 stehen. Danach schätzten die Teilnehmenden den Anteil afrikanischer Staaten in der UNO. Nach der 10 lag die mittlere Schätzung bei 25 %, nach der 65 bei 45 %. Eine zufällige Zahl beeinflusst das Urteil.",
+  "quelle": "Tversky & Kahneman (1974), Science"
+ },
+ {
+  "id": "bystander",
+  "titel": "Bystander-Effekt",
+  "saeule": "wirkung",
+  "kern": "Teilnehmende hörten über eine Gegensprechanlage, wie eine andere Person einen Anfall bekam. Glaubten sie, allein zu sein, holten 85 % Hilfe, bevor der Anfall vorbei war. Glaubten sie, vier andere hören mit, waren es nur 31 %. Je mehr Menschen anwesend sind, desto weniger fühlt sich der Einzelne verantwortlich.",
+  "quelle": "Darley & Latané (1968), Journal of Personality and Social Psychology"
+ },
+ {
+  "id": "planung",
+  "titel": "Planungsfehlschluss",
+  "saeule": "gewohnheiten",
+  "kern": "Studierende schätzten, wie lange sie für ihre Abschlussarbeit brauchen. Im Schnitt schätzten sie rund 34 Tage, tatsächlich brauchten sie rund 56 Tage. Nur etwa 30 % wurden bis zum selbst geschätzten Termin fertig. Wir planen nach dem besten Fall, nicht nach Erfahrung.",
+  "quelle": "Buehler, Griffin & Ross (1994), Journal of Personality and Social Psychology"
+ },
+ {
+  "id": "weil",
+  "titel": "Die Macht des Wortes „weil“",
+  "saeule": "kommunikation",
+  "kern": "Eine Person wollte sich in der Schlange am Kopierer vordrängen. Ohne Begründung ließen sie 60 % vor. Mit der Begründung „weil ich Kopien machen muss“, die eigentlich nichts erklärt, waren es 93 %. Mit einer echten Begründung („weil ich es eilig habe“) 94 %. Bei kleinen Bitten wirkt schon die Form einer Begründung.",
+  "quelle": "Langer, Blank & Chanowitz (1978), Journal of Personality and Social Psychology",
+  "hinweis": "Der Effekt galt für kleine Bitten (5 Seiten). Bei großen Bitten wirkte die Scheinbegründung nicht."
+ },
+ {
+  "id": "asch",
+  "titel": "Gruppendruck (Asch-Experiment)",
+  "saeule": "wirkung",
+  "kern": "Teilnehmende sollten Linienlängen vergleichen, die Aufgabe war eindeutig. Eingeweihte Mitspieler gaben absichtlich falsche Antworten. Rund 75 % der echten Teilnehmenden schlossen sich mindestens einmal der falschen Mehrheit an. Insgesamt war etwa ein Drittel aller Antworten angepasst.",
+  "quelle": "Asch (1956), Psychological Monographs"
+ },
+ {
+  "id": "verlust",
+  "titel": "Verlustaversion",
+  "saeule": "denkfehler",
+  "kern": "Verluste wiegen psychologisch etwa doppelt so schwer wie gleich große Gewinne. Deshalb lehnen viele eine Münzwette ab, bei der sie 100 Euro verlieren oder 150 Euro gewinnen könnten, obwohl sie sich im Schnitt lohnt.",
+  "quelle": "Kahneman & Tversky (1979), Econometrica; Tversky & Kahneman (1992), Journal of Risk and Uncertainty"
+ },
+ {
+  "id": "fussindertuer",
+  "titel": "Fuß-in-der-Tür-Technik",
+  "saeule": "kommunikation",
+  "kern": "Hausbesitzer wurden gebeten, ein großes, hässliches Schild „Fahr vorsichtig“ im Garten aufzustellen. Ohne Vorbereitung stimmten rund 17 % zu. Wer zwei Wochen vorher einer kleinen Bitte zugestimmt hatte (einen kleinen Aufkleber anzubringen), sagte zu 76 % Ja. Wer einmal Ja sagt, bleibt gern konsistent.",
+  "quelle": "Freedman & Fraser (1966), Journal of Personality and Social Psychology"
+ },
+ {
+  "id": "gewohnheit66",
+  "titel": "Wie lange es dauert, eine Gewohnheit aufzubauen",
+  "saeule": "gewohnheiten",
+  "kern": "Teilnehmende wählten eine neue tägliche Gewohnheit. Bis sie sich automatisch anfühlte, dauerte es im Mittel 66 Tage, mit großer Spanne von 18 bis 254 Tagen. Einen Tag auszulassen hat den Prozess nicht nennenswert gestört. Die verbreitete Regel „21 Tage“ ist nicht belegt.",
+  "quelle": "Lally, van Jaarsveld, Potts & Wardle (2010), European Journal of Social Psychology"
+ },
+ {
+  "id": "endowment",
+  "titel": "Besitztumseffekt",
+  "saeule": "denkfehler",
+  "kern": "Die Hälfte einer Gruppe bekam eine Kaffeetasse geschenkt. Die neuen Besitzer verlangten für den Verkauf etwa doppelt so viel, wie die anderen für dieselbe Tasse zahlen wollten. Sobald uns etwas gehört, bewerten wir es höher.",
+  "quelle": "Kahneman, Knetsch & Thaler (1990), Journal of Political Economy"
+ },
+ {
+  "id": "gorilla",
+  "titel": "Unaufmerksamkeitsblindheit",
+  "saeule": "wirkung",
+  "kern": "Teilnehmende zählten in einem Video die Pässe einer Basketballmannschaft. Mitten im Bild lief eine Person im Gorillakostüm durch. Etwa die Hälfte bemerkte den Gorilla nicht. Wenn wir uns konzentrieren, übersehen wir sogar Auffälliges.",
+  "quelle": "Simons & Chabris (1999), Perception"
+ },
+ {
+  "id": "dissonanz",
+  "titel": "Kognitive Dissonanz",
+  "saeule": "denkfehler",
+  "kern": "Teilnehmende erledigten eine extrem langweilige Aufgabe und sollten danach dem Nächsten erzählen, sie sei spannend. Dafür bekamen sie 1 oder 20 Dollar. Später bewerteten die mit 1 Dollar die Aufgabe als angenehmer. Wer für eine Lüge kaum belohnt wird, passt lieber seine Meinung an.",
+  "quelle": "Festinger & Carlsmith (1959), Journal of Abnormal and Social Psychology"
+ },
+ {
+  "id": "handtuch",
+  "titel": "Soziale Bewährtheit",
+  "saeule": "kommunikation",
+  "kern": "In Hotelzimmern hingen unterschiedliche Kärtchen. Mit dem Umweltappell nutzten 35 % der Gäste ihre Handtücher wieder. Mit dem Hinweis, dass die meisten Gäste ihre Handtücher wiederverwenden, waren es 44 %. Wir orientieren uns daran, was andere tun.",
+  "quelle": "Goldstein, Cialdini & Griskevicius (2008), Journal of Consumer Research"
+ },
+ {
+  "id": "organspende",
+  "titel": "Die Macht der Voreinstellung",
+  "saeule": "denkfehler",
+  "kern": "In Ländern, in denen man der Organspende aktiv zustimmen muss, waren sehr wenige registriert, in Deutschland rund 12 %. In Ländern mit Widerspruchslösung, wo man automatisch Spender ist, lag die Quote nahe 100 %, in Österreich bei 99,98 %. Was voreingestellt ist, bleibt meistens so.",
+  "quelle": "Johnson & Goldstein (2003), Science",
+  "hinweis": "Zahlen beziehen sich auf die Studie von 2003. Keine aktuellen Zahlen behaupten."
+ },
+ {
+  "id": "dunning",
+  "titel": "Dunning-Kruger-Effekt",
+  "saeule": "denkfehler",
+  "kern": "Teilnehmende lösten Tests zu Logik und Grammatik und schätzten danach ihre Leistung ein. Die Schwächsten schnitten im Schnitt schlechter ab als rund 88 % der anderen, hielten sich aber für überdurchschnittlich. Wer wenig weiß, erkennt oft auch die eigenen Lücken schlecht.",
+  "quelle": "Kruger & Dunning (1999), Journal of Personality and Social Psychology",
+  "hinweis": "Fair einordnen: Ein Teil des Effekts wird in der Forschung auch als statistisches Artefakt diskutiert. Nicht als „Dumme halten sich für schlau“ zuspitzen."
+ },
+ {
+  "id": "framing",
+  "titel": "Framing-Effekt",
+  "saeule": "denkfehler",
+  "kern": "Bei einer Seuche mit 600 Betroffenen wählten 72 % das sichere Programm, als es hieß „200 Menschen werden gerettet“. Hieß es bei identischen Zahlen „400 Menschen werden sterben“, wählten 78 % das riskante Programm. Die Formulierung verändert die Entscheidung.",
+  "quelle": "Tversky & Kahneman (1981), Science"
+ },
+ {
+  "id": "peakend",
+  "titel": "Höhepunkt-Ende-Regel",
+  "saeule": "denkfehler",
+  "kern": "Teilnehmende hielten die Hand 60 Sekunden in sehr kaltes Wasser. In einem zweiten Durchgang dauerte es 90 Sekunden, wobei das Wasser in den letzten 30 Sekunden etwas wärmer wurde. Die Mehrheit wählte zur Wiederholung den längeren Durchgang. Wir erinnern uns an den Höhepunkt und das Ende, nicht an die Dauer.",
+  "quelle": "Kahneman, Fredrickson, Schreiber & Redelmeier (1993), Psychological Science"
+ },
+ {
+  "id": "tuerinsgesicht",
+  "titel": "Tür-ins-Gesicht-Technik",
+  "saeule": "kommunikation",
+  "kern": "Studierende wurden gefragt, ob sie Jugendliche für einen Nachmittag in den Zoo begleiten. Direkt gefragt sagten 17 % zu. Wurden sie vorher um etwas Riesiges gebeten (zwei Jahre lang wöchentlich ehrenamtlich arbeiten) und lehnten ab, sagten danach 50 % zur Zoo-Bitte Ja.",
+  "quelle": "Cialdini et al. (1975), Journal of Personality and Social Psychology"
+ },
+ {
+  "id": "barnum",
+  "titel": "Barnum-Effekt",
+  "saeule": "denkfehler",
+  "kern": "Ein Psychologe gab Studierenden eine angeblich persönliche Persönlichkeitsanalyse. In Wahrheit bekamen alle denselben Text, zusammengestellt aus Horoskop-Sätzen. Im Schnitt bewerteten sie die Treffgenauigkeit mit mehr als 4 von 5 Punkten. Allgemeine Aussagen fühlen sich persönlich an.",
+  "quelle": "Forer (1949), Journal of Abnormal and Social Psychology"
+ },
+ {
+  "id": "besseralsschnitt",
+  "titel": "Besser-als-der-Durchschnitt-Effekt",
+  "saeule": "denkfehler",
+  "kern": "In einer Befragung schätzten sich 93 % der befragten US-Studierenden als geschicktere Autofahrer ein als der Durchschnitt der Gruppe. In der schwedischen Gruppe waren es 69 %. Mathematisch können das nicht alle sein.",
+  "quelle": "Svenson (1981), Acta Psychologica"
+ },
+ {
+  "id": "chamaeleon",
+  "titel": "Chamäleon-Effekt",
+  "saeule": "kommunikation",
+  "kern": "In Gesprächen ahmte eine eingeweihte Person unauffällig Haltung und Gesten der Teilnehmenden nach oder nicht. Wer nachgeahmt wurde, mochte das Gegenüber mehr und empfand das Gespräch als flüssiger. Wir imitieren unbewusst, und das verbindet.",
+  "quelle": "Chartrand & Bargh (1999), Journal of Personality and Social Psychology"
+ },
+ {
+  "id": "naehe",
+  "titel": "Nähe macht Freunde",
+  "saeule": "kommunikation",
+  "kern": "In einem Studentenwohnheim entstanden Freundschaften vor allem zwischen Menschen, die nah beieinander wohnten oder deren Wege sich zufällig kreuzten, etwa am Treppenhaus oder Briefkasten. Räumliche Nähe sagte Freundschaft stärker voraus als gemeinsame Interessen.",
+  "quelle": "Festinger, Schachter & Back (1950), Social Pressures in Informal Groups"
+ },
+ {
+  "id": "mereexposure",
+  "titel": "Mere-Exposure-Effekt",
+  "saeule": "wirkung",
+  "kern": "Menschen bewerten Wörter, Gesichter oder Zeichen positiver, je öfter sie sie vorher gesehen haben, selbst wenn sie sich nicht bewusst daran erinnern. Vertrautheit erzeugt Sympathie.",
+  "quelle": "Zajonc (1968), Journal of Personality and Social Psychology"
+ },
+ {
+  "id": "halo",
+  "titel": "Halo-Effekt",
+  "saeule": "wirkung",
+  "kern": "Studierende sahen ein Video desselben Dozenten, einmal freundlich und warm, einmal kühl und abweisend. Im warmen Video bewerteten sie auch sein Aussehen, seine Gestik und seinen Akzent positiver. Ein positiver Eindruck färbt auf alles andere ab.",
+  "quelle": "Nisbett & Wilson (1977), Journal of Personality and Social Psychology"
+ },
+ {
+  "id": "attribution",
+  "titel": "Fundamentaler Attributionsfehler",
+  "saeule": "denkfehler",
+  "kern": "Teilnehmende lasen einen Aufsatz für oder gegen Fidel Castro. Obwohl sie wussten, dass der Verfasser die Position zugelost bekommen hatte, glaubten sie, der Text spiegle seine echte Meinung. Wir erklären das Verhalten anderer mit ihrem Charakter und unterschätzen die Situation.",
+  "quelle": "Jones & Harris (1967), Journal of Experimental Social Psychology"
+ },
+ {
+  "id": "verfuegbarkeit",
+  "titel": "Verfügbarkeitsheuristik",
+  "saeule": "denkfehler",
+  "kern": "Gefragt, ob mehr englische Wörter mit K beginnen oder K als dritten Buchstaben haben, tippten die meisten auf den Anfangsbuchstaben. Tatsächlich ist K an dritter Stelle häufiger. Was uns leichter einfällt, halten wir für häufiger.",
+  "quelle": "Tversky & Kahneman (1973), Cognitive Psychology"
+ },
+ {
+  "id": "bestaetigung",
+  "titel": "Bestätigungsfehler",
+  "saeule": "denkfehler",
+  "kern": "Teilnehmende sollten die Regel hinter der Zahlenfolge 2-4-6 finden und eigene Folgen testen. Die meisten testeten nur Folgen, die ihre Vermutung bestätigten (z. B. 8-10-12), statt zu prüfen, ob sie falsch liegen. Die Regel war einfach: irgendeine aufsteigende Folge. Wir suchen Bestätigung, nicht Widerlegung.",
+  "quelle": "Wason (1960), Quarterly Journal of Experimental Psychology"
+ },
+ {
+  "id": "sunkcost",
+  "titel": "Sunk-Cost-Effekt",
+  "saeule": "denkfehler",
+  "kern": "Teilnehmende stellten sich vor, versehentlich zwei Skireisen am selben Wochenende gebucht zu haben: eine teurere und eine günstigere, die mehr Spaß machen würde. Mehr als die Hälfte wählte die teurere Reise. Bereits investiertes Geld hält uns an Entscheidungen fest.",
+  "quelle": "Arkes & Blumer (1985), Organizational Behavior and Human Decision Processes"
+ },
+ {
+  "id": "kontrollillusion",
+  "titel": "Kontrollillusion",
+  "saeule": "denkfehler",
+  "kern": "Büroangestellte nahmen an einer Lotterie teil. Ein Teil durfte das Los selbst auswählen, der andere bekam eines zugeteilt. Sollten sie es später zurückverkaufen, verlangten die Selbstwähler mehr als viermal so viel. Die Gewinnchance war identisch.",
+  "quelle": "Langer (1975), Journal of Personality and Social Psychology"
+ },
+ {
+  "id": "spielerfehlschluss",
+  "titel": "Spielerfehlschluss",
+  "saeule": "denkfehler",
+  "kern": "1913 fiel im Casino von Monte Carlo die Roulettekugel 26 Mal hintereinander auf Schwarz. Viele setzten immer höher auf Rot, weil Rot doch endlich kommen musste, und verloren viel Geld. Zufall hat kein Gedächtnis: Jede Runde ist unabhängig.",
+  "quelle": "Historisches Ereignis, Casino de Monte-Carlo (18. August 1913)"
+ },
+ {
+  "id": "overjustification",
+  "titel": "Belohnung kann Motivation zerstören",
+  "saeule": "gewohnheiten",
+  "kern": "Kindergartenkinder, die gern malten, bekamen für das Malen eine Urkunde versprochen. Später, ohne Belohnung, malten sie in der freien Zeit weniger als Kinder, die keine Belohnung erwartet hatten. Erwartete Belohnungen können Freude an einer Tätigkeit verdrängen.",
+  "quelle": "Lepper, Greene & Nisbett (1973), Journal of Personality and Social Psychology"
+ },
+ {
+  "id": "loftus",
+  "titel": "Erinnerungen sind formbar",
+  "saeule": "denkfehler",
+  "kern": "Teilnehmende sahen einen Autounfall und wurden gefragt, wie schnell die Autos waren, als sie „ineinander krachten“ oder „sich berührten“. Bei „krachten“ schätzten sie höher. Eine Woche später erinnerten sich 32 % der „krachten“-Gruppe an zerbrochenes Glas, bei „berührten“ 14 %. Es gab kein zerbrochenes Glas.",
+  "quelle": "Loftus & Palmer (1974), Journal of Verbal Learning and Verbal Behavior"
+ },
+ {
+  "id": "cocktailparty",
+  "titel": "Cocktailparty-Effekt",
+  "saeule": "wirkung",
+  "kern": "Teilnehmende hörten auf jedem Ohr einen anderen Text und sollten nur auf einen achten. Vom ignorierten Ohr bekamen sie fast nichts mit, aber rund ein Drittel bemerkte, wenn dort der eigene Name fiel. Unser Gehirn filtert, lässt aber Wichtiges durch.",
+  "quelle": "Moray (1959), Quarterly Journal of Experimental Psychology"
+ },
+ {
+  "id": "abrufen",
+  "titel": "Lernen durch Abrufen",
+  "saeule": "gewohnheiten",
+  "kern": "Studierende lernten einen Text, entweder durch wiederholtes Lesen oder durch Lesen und anschließendes Abrufen aus dem Gedächtnis. Kurzfristig schnitt das Wiederlesen gleich gut oder besser ab. Nach einer Woche erinnerten sich die Abrufer deutlich besser. Sich selbst abfragen schlägt Wiederlesen.",
+  "quelle": "Roediger & Karpicke (2006), Psychological Science"
+ },
+ {
+  "id": "verteilt",
+  "titel": "Verteiltes Lernen",
+  "saeule": "gewohnheiten",
+  "kern": "Wer Lernstoff über mehrere Tage verteilt wiederholt, behält ihn langfristig deutlich besser als bei derselben Lernzeit am Stück. Das zeigt eine große Auswertung hunderter Studien. Pausen zwischen den Lerneinheiten sind kein Zeitverlust.",
+  "quelle": "Cepeda, Pashler, Vul, Wixted & Rohrer (2006), Psychological Bulletin"
+ },
+ {
+  "id": "wenndann",
+  "titel": "Wenn-dann-Pläne",
+  "saeule": "gewohnheiten",
+  "kern": "Vorsätze klappen deutlich besser, wenn man festlegt, wann, wo und wie man handelt: „Wenn ich nach dem Abendessen den Tisch abräume, gehe ich 10 Minuten spazieren.“ Eine Auswertung vieler Studien fand einen mittleren bis großen Effekt solcher Wenn-dann-Pläne auf das Erreichen von Zielen.",
+  "quelle": "Gollwitzer & Sheeran (2006), Advances in Experimental Social Psychology"
+ },
+ {
+  "id": "neustart",
+  "titel": "Neustart-Effekt",
+  "saeule": "gewohnheiten",
+  "kern": "Fitnessstudio-Besuche und Suchen nach dem Wort „Diät“ stiegen nach markanten Zeitpunkten an: zu Wochenbeginn, Monatsbeginn, nach Feiertagen und nach Geburtstagen. Neue Abschnitte fühlen sich wie ein Neuanfang an und motivieren.",
+  "quelle": "Dai, Milkman & Riis (2014), Management Science"
+ },
+ {
+  "id": "zukunftsich",
+  "titel": "Das fremde Zukunfts-Ich",
+  "saeule": "gewohnheiten",
+  "kern": "Teilnehmende sahen ein digital gealtertes Bild von sich selbst. Danach legten sie in einer Aufgabe mehr Geld für die Rente zurück als jene, die ihr aktuelles Bild sahen. Je näher wir uns unserem Zukunfts-Ich fühlen, desto mehr sorgen wir vor.",
+  "quelle": "Hershfield et al. (2011), Journal of Marketing Research"
+ },
+ {
+  "id": "ikea",
+  "titel": "IKEA-Effekt",
+  "saeule": "denkfehler",
+  "kern": "Teilnehmende bauten eine Aufbewahrungsbox selbst zusammen oder bekamen eine fertig gebaute. Für die selbst gebaute waren sie bereit, deutlich mehr zu zahlen. Was wir selbst gemacht haben, schätzen wir höher, auch wenn es nicht besser ist.",
+  "quelle": "Norton, Mochon & Ariely (2012), Journal of Consumer Psychology"
+ },
+ {
+  "id": "reziprozitaet",
+  "titel": "Reziprozität",
+  "saeule": "kommunikation",
+  "kern": "Eine eingeweihte Person brachte Teilnehmenden ungefragt ein Getränk mit oder nicht. Später bat sie, ihr Lose abzukaufen. Wer das Getränk bekommen hatte, kaufte etwa doppelt so viele Lose, unabhängig davon, ob er die Person mochte. Ein kleiner Gefallen erzeugt Verpflichtung.",
+  "quelle": "Regan (1971), Journal of Experimental Social Psychology"
+ },
+ {
+  "id": "pratfall",
+  "titel": "Pratfall-Effekt",
+  "saeule": "wirkung",
+  "kern": "Teilnehmende hörten die Aufnahme eines sehr kompetenten Quizkandidaten, der am Ende Kaffee über sich schüttete, oder ohne Missgeschick. Mit Missgeschick wirkte er sympathischer. Bei einem durchschnittlichen Kandidaten wirkte dasselbe Missgeschick negativ. Kleine Fehler machen kompetente Menschen nahbar.",
+  "quelle": "Aronson, Willerman & Floyd (1966), Psychonomic Science"
+ },
+ {
+  "id": "minimalgruppe",
+  "titel": "Wir gegen die",
+  "saeule": "wirkung",
+  "kern": "Jugendliche wurden nach einem belanglosen Kriterium in Gruppen geteilt, etwa danach, welchen von zwei Malern sie bevorzugten. Obwohl sie die anderen Gruppenmitglieder nie trafen, verteilten sie Belohnungen bevorzugt an die eigene Gruppe. Schon eine bedeutungslose Einteilung erzeugt Wir-Gefühl.",
+  "quelle": "Tajfel, Billig, Bundy & Flament (1971), European Journal of Social Psychology"
+ },
+ {
+  "id": "rueckschau",
+  "titel": "Rückschaufehler",
+  "saeule": "denkfehler",
+  "kern": "Teilnehmende schätzten vor einer Reise von US-Präsident Nixon nach China ein, wie wahrscheinlich verschiedene Ergebnisse sind. Nach der Reise sollten sie sich an ihre Schätzungen erinnern. Sie glaubten, Eingetretenes schon vorher für wahrscheinlicher gehalten zu haben. Hinterher wirkt alles vorhersehbar.",
+  "quelle": "Fischhoff & Beyth (1975), Organizational Behavior and Human Performance"
+ },
+ {
+  "id": "selbstwert",
+  "titel": "Selbstwertdienliche Verzerrung",
+  "saeule": "denkfehler",
+  "kern": "Erfolge schreiben wir gern uns selbst zu, Misserfolge eher den Umständen. Das zeigt sich in vielen Studien über Bereiche wie Prüfungen, Sport und Arbeit. Es schützt unser Selbstbild, macht aber Lernen aus Fehlern schwerer.",
+  "quelle": "Miller & Ross (1975), Psychological Bulletin"
+ },
+ {
+  "id": "namenbuchstabe",
+  "titel": "Namensbuchstaben-Effekt",
+  "saeule": "wirkung",
+  "kern": "Menschen mögen die Buchstaben ihres eigenen Namens, besonders die Initialen, lieber als andere Buchstaben. Das zeigte sich in vielen Sprachen und Ländern. Selbst kleine Verbindungen zum eigenen Ich erzeugen Sympathie.",
+  "quelle": "Nuttin (1985), European Journal of Social Psychology"
+ },
+ {
+  "id": "reaktanz",
+  "titel": "Reaktanz",
+  "saeule": "kommunikation",
+  "kern": "Wenn Menschen spüren, dass ihre Freiheit eingeschränkt wird, wollen sie das Verbotene oft erst recht. Auf einem Uni-Campus lösten streng formulierte Verbotsschilder gegen Graffiti stärkere Ablehnung aus als milde Formulierungen. Druck erzeugt Gegendruck.",
+  "quelle": "Brehm (1966), A Theory of Psychological Reactance; Pennebaker & Sanders (1976), Personality and Social Psychology Bulletin"
+ },
+ {
+  "id": "kontrolle",
+  "titel": "Das Gefühl von Kontrolle",
+  "saeule": "gewohnheiten",
+  "kern": "In einem Pflegeheim durfte eine Gruppe von Bewohnern selbst Entscheidungen treffen und eine Zimmerpflanze selbst versorgen, der anderen Gruppe wurde alles abgenommen. Die Gruppe mit mehr Selbstbestimmung war aktiver und zufriedener. Schon kleine Wahlmöglichkeiten stärken das Wohlbefinden.",
+  "quelle": "Langer & Rodin (1976), Journal of Personality and Social Psychology"
+ },
+ {
+  "id": "gruppendenken",
+  "titel": "Gruppendenken",
+  "saeule": "wirkung",
+  "kern": "In eng verbundenen Gruppen wird Harmonie oft wichtiger als eine kritische Prüfung. Zweifel werden nicht ausgesprochen, alle glauben, die anderen seien sich sicher. Der Psychologe Irving Janis untersuchte so politische Fehlentscheidungen wie die Invasion in der Schweinebucht 1961.",
+  "quelle": "Janis (1972), Victims of Groupthink"
+ },
+ {
+  "id": "transparenz",
+  "titel": "Illusion der Transparenz",
+  "saeule": "kommunikation",
+  "kern": "Teilnehmende sollten vor anderen lügen oder ein ekliges Getränk mit neutraler Miene trinken. Danach schätzten sie ein, wie viele Beobachter die Lüge oder den Ekel bemerkt hatten. Sie überschätzten deutlich, wie sichtbar ihr Innenleben für andere war. Man sieht dir viel weniger an, als du glaubst.",
+  "quelle": "Gilovich, Savitsky & Medvec (1998), Journal of Personality and Social Psychology"
+ }
+]
