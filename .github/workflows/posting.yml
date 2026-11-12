@@ -1,0 +1,97 @@
+name: Posting
+
+on:
+  schedule:
+    # Zwei Zeitpunkte wegen Sommer-/Winterzeit. Das Programm postet nur einmal pro Tag ab 18:15 Uhr Wiener Zeit.
+    - cron: "30 16 * * *"
+    - cron: "30 17 * * *"
+  workflow_dispatch:
+    inputs:
+      modus:
+        description: "check = nur testen (nichts wird veröffentlicht), post = sofort echt posten"
+        type: choice
+        options: [check, post]
+        default: check
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: posting
+  cancel-in-progress: false
+
+jobs:
+  posting:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    environment:
+      name: github-pages
+    env:
+      MODUS: ${{ github.event.inputs.modus || 'auto' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Werkzeuge installieren
+        run: |
+          sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+          pip install -q pillow numpy scipy requests
+
+      - name: Instagram-Zugang prüfen
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: python pipeline/main.py pruefen
+
+      - name: Beitrag erstellen
+        id: prep
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python pipeline/main.py vorbereiten --modus "$MODUS"
+
+      - name: Vorschau zum Herunterladen speichern
+        if: steps.prep.outputs.go == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: vorschau
+          path: site
+          retention-days: 14
+
+      - name: Dateien bereitstellen (1/3)
+        if: steps.prep.outputs.publish == 'true'
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Dateien bereitstellen (2/3)
+        if: steps.prep.outputs.publish == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Dateien bereitstellen (3/3)
+        if: steps.prep.outputs.publish == 'true'
+        uses: actions/deploy-pages@v4
+
+      - name: Auf Instagram veröffentlichen
+        if: steps.prep.outputs.publish == 'true'
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: |
+          if [ "$MODUS" = "check" ]; then
+            python pipeline/main.py veroeffentlichen --base-url "${{ steps.pages.outputs.base_url }}" --nur-test
+          else
+            python pipeline/main.py veroeffentlichen --base-url "${{ steps.pages.outputs.base_url }}"
+          fi
+
+      - name: Verlauf speichern
+        if: steps.prep.outputs.publish == 'true' && env.MODUS != 'check'
+        run: |
+          git config user.name "posting-bot"
+          git config user.email "posting-bot@users.noreply.github.com"
+          git add state/historie.json
+          git commit -m "Beitrag veröffentlicht: $(date +%F)" || exit 0
+          git push
