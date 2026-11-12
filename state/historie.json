@@ -1,4 +1,32 @@
 [
-  {"nr": 1, "datum": "manuell", "thema_id": "spotlight", "format": "karussell", "slug": "001_spotlight-effekt", "saeule": "denkfehler", "hook": "Niemand schaut so genau hin, wie du glaubst."},
-  {"nr": 2, "datum": "manuell", "thema_id": "anker", "format": "reel", "slug": "002_ankereffekt", "saeule": "denkfehler", "hook": "Eine zufällige Zahl verändert dein Urteil. Und du merkst es nicht."}
+ {
+  "nr": 1,
+  "datum": "manuell",
+  "thema_id": "spotlight",
+  "format": "karussell",
+  "slug": "001_spotlight-effekt",
+  "saeule": "denkfehler",
+  "hook": "Niemand schaut so genau hin, wie du glaubst."
+ },
+ {
+  "nr": 2,
+  "datum": "manuell",
+  "thema_id": "anker",
+  "format": "reel",
+  "slug": "002_ankereffekt",
+  "saeule": "denkfehler",
+  "hook": "Eine zufällige Zahl verändert dein Urteil. Und du merkst es nicht."
+ },
+ {
+  "nr": 3,
+  "datum": "2026-11-12",
+  "thema_id": "bystander",
+  "format": "karussell",
+  "slug": "003_bystander",
+  "saeule": "wirkung",
+  "hook": "Je mehr Menschen zusehen, desto seltener hilft jemand.",
+  "media_id": "18092217092250926",
+  "link": "https://www.instagram.com/p/DfplzDoDR2z/",
+  "zeit": "2026-11-12T18:27+01:00"
+ }
 ]
